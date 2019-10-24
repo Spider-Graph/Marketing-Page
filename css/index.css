@@ -164,7 +164,7 @@ header nav {
   position: fixed;
   width: 100%;
   display: flex;
-  background-color: 616161;
+  background-color: #212121;
   height: 8vh;
   z-index: 999;
 }
@@ -174,11 +174,12 @@ header a {
   margin-top: 2%;
   color: white;
   font-size: 1.8rem;
+  font-family: 'Roboto', sans-serif;
 }
 footer {
   text-align: center;
   margin: 0rem 0rem;
-  background-color: 616161;
+  background-color: #212121;
 }
 footer P {
   font-size: 1.7rem;
@@ -196,12 +197,18 @@ footer P {
   line-height: 5vh;
   font-family: 'Baloo Bhai', cursive;
   color: white;
+  margin: 2rem;
 }
 #about .text h2 {
-  font-size: 2.9rem;
+  font-size: 4rem;
 }
 #about .text p {
   font-size: 1.6rem;
+  font-weight: 200;
+}
+#about img {
+  border-radius: 30%;
+  margin: 1rem;
 }
 @media (max-width: 500px) {
   #about .text {
@@ -221,24 +228,28 @@ footer P {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #00897B;
+  background-color: #FF5722;
 }
 #function .text-2 {
   width: 50%;
   text-align: center;
   line-height: 5vh;
   font-family: 'Baloo Bhai', cursive;
+  margin: 2rem;
 }
 #function .text-2 h2 {
-  font-size: 2.9rem;
+  font-size: 4rem;
   color: white;
 }
 #function .text-2 p {
   font-size: 1.6rem;
   color: white;
+  font-weight: 200;
 }
 #function img {
   width: 20%;
+  border-radius: 30%;
+  margin: 1rem;
 }
 @media (max-width: 500px) {
   #function .text-2 {
@@ -260,17 +271,20 @@ footer P {
   text-align: center;
   line-height: 5vh;
   font-family: 'Baloo Bhai', cursive;
+  margin: 2rem;
 }
 #features .text-3 h2 {
-  font-size: 3.5rem;
+  font-size: 4rem;
   color: white;
 }
 #features .text-3 p {
   font-size: 2rem;
   color: white;
+  font-weight: 200;
 }
 #features img {
   width: 50%;
+  border-radius: 30%;
 }
 @media (max-width: 500px) {
   #features .text-3 {
@@ -302,17 +316,20 @@ footer P {
   width: 50%;
   text-align: center;
   line-height: 5vh;
+  margin: 2rem;
 }
 #why-us .text-4 h2 {
-  font-size: 2.9rem;
+  font-size: 4rem;
   color: white;
 }
 #why-us .text-4 p {
   font-size: 1.6rem;
   color: white;
+  font-weight: 200;
 }
 #why-us img {
   width: 15%;
+  border-radius: 20%;
 }
 @media (max-width: 500px) {
   #why-us .text-4 {
@@ -325,8 +342,11 @@ footer P {
 .member-h {
   border: 0.1rem solid lightgray;
 }
+.member-h a {
+  font-display: 'Roboto', sans-serif;
+}
 body {
-  background-color: 212121;
+  background-color: #BDBDBD;
 }
 #photo-card {
   display: flex;
